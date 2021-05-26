@@ -75,24 +75,25 @@
 
 ### How To Identifing any Problem
 
-S.N.    Problem          No. of Target        Target Cordinality         Type of Target
-  1.    Binary Class           
-        Classification         1                    =2                     Multi Class
+    S.N.    Problem          No. of Target        Target Cordinality         Type of Target
 
-  2.    Multi Class           
-        Classification         1                    >2                     Multi Class
+    1.    Binary Class           
+          Classification         1                    =2                     Multi Class
+
+    2.    Multi Class           
+          Classification         1                    >2                     Multi Class
   
-  3.    Multi Label   
-        Classification        >1                    2(0 or 1)              Multi Label
+    3.    Multi Label   
+          Classification        >1                    2(0 or 1)              Multi Label
         
-  4.    Multi Output                                                       Continuous
-        Regression            >1                    Continuous             Multi Output 
+    4.    Multi Output                                                       Continuous
+          Regression            >1                    Continuous             Multi Output 
   
-  5.    Multi Output                                                       
-        Multi Class           >1                    >2                     Multi Class
-        Classification                                                     Multi Output
+    5.    Multi Output                                                       
+          Multi Class           >1                    >2                     Multi Class
+          Classification                                                     Multi Output
         
-Categorical Data = (0, 1), (0, 1, 2, 3), (A, B), (java, python, ml)
+ Categorical Data = (0, 1), (0, 1, 2, 3), (A, B), (java, python, ml)
  Countinous Data = 10,40,10.5, 1-4,25-50
  
 ----------------------------------------------------------------------------------------------------
@@ -117,15 +118,15 @@ Categorical Data = (0, 1), (0, 1, 2, 3), (A, B), (java, python, ml)
                     
 ------------------------------------------------------------------------------------------------------
 
-S.N.   Algorithms            Type                        Used For Problem
-  1.   Linear Regression     Supervised, Countinuous     Regression
-  2.   Logistic Regression   Supervised, Categorical     Classification
-  3.   K-Mean                Un-Supervised, Continuous   Clustering & Dimentionality Reduction
-  4.   KNN                   Supervised, Categorical     Classification
-  5.   Decision Tree         Supervised, Both            Classification
-  6.   Random Forest         Supervised, Countinuous     Both Classification, Regression
-  7.   SVM                   Supervised, Categorical     Both Classification, Regression
-  8.   Naive Bayes           Supervised, Categorical     Classification
-  9.   XGBoosT               Supervised                  Classification, Regression, others
- 10.   ANN                   Supervised                  Classification, Clustering, others 
- 11.   PCA                   Un-Supervised, Continuous   Clustering & Dimentionality Reduction 
+    S.N.   Algorithms            Type                        Used For Problem
+     1.   Linear Regression     Supervised, Countinuous     Regression
+     2.   Logistic Regression   Supervised, Categorical     Classification
+     3.   K-Mean                Un-Supervised, Continuous   Clustering & Dimentionality Reduction
+     4.   KNN                   Supervised, Categorical     Classification
+     5.   Decision Tree         Supervised, Both            Classification
+     6.   Random Forest         Supervised, Countinuous     Both Classification, Regression
+     7.   SVM                   Supervised, Categorical     Both Classification, Regression
+     8.   Naive Bayes           Supervised, Categorical     Classification
+     9.   XGBoosT               Supervised                  Classification, Regression, others
+    10.   ANN                   Supervised                  Classification, Clustering, others 
+    11.   PCA                   Un-Supervised, Continuous   Clustering & Dimentionality Reduction 
