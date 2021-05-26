@@ -93,8 +93,8 @@
           Multi Class           >1                    >2                     Multi Class
           Classification                                                     Multi Output
         
- Categorical Data = (0, 1), (0, 1, 2, 3), (A, B), (java, python, ml)
- Countinous Data = 10,40,10.5, 1-4,25-50
+    * Categorical Data = (0, 1), (0, 1, 2, 3), (A, B), (java, python, ml)
+    * Countinous Data = 10,40,10.5, 1-4,25-50
  
 ----------------------------------------------------------------------------------------------------
 
