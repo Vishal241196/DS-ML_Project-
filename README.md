@@ -1,4 +1,4 @@
-# How To Work On Any Project :- 
+# Important things to remember when workin on any project :- 
  1. Data Collection or Load the Data
  2. Problem :
     -> Identify the Bussiness Case and Categorize the Type of Problem to Solve 
